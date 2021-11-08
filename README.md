@@ -27,6 +27,7 @@ O objetivo do projeto é informatizar processos, como: busca por livros existent
 * [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Para interação
 * [NodeJS](https://nodejs.org/en/) - Para conexão entre servidor e a interface
 * [MySQL Workbench](https://dev.mysql.com/doc/) - Para armazenamento de dados
+* [Heroku](https://devcenter.heroku.com) - Para colocar o projeto no ar
 
 ---
 ⌨️ com ❤️ por [Paola](https://gist.github.com/paolaguedes) 😸
