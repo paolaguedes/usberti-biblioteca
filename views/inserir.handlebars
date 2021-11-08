@@ -1,0 +1,44 @@
+<header class="header">
+<h1>Biblioteca</h1>
+<ul class="header__lista">
+  <li><a class="header__link" href="/select">Livros cadastrados</a></li>
+  <li><a class="header__link" href="/">Inicio</a></li>
+</ul>
+</header>
+
+<section class="form__container">
+
+<form class="form" name="formInserir" action="/inserir" method="post">
+  <legend class="form__legend">Ficha de livro</legend>
+  <label>Nome do livro</label>
+  <input class="form__input" type='text' name="nome" id="nome" required>
+
+  <label>Autor</label>
+  <input class="form__input" type='text' name="autor" id="autor" required>
+
+  <label>Editora</label>
+  <input class="form__input" type='text' name="editora" id="editora" required>
+
+  <label>Edição</label>
+  <input class="form__input" type='number' name="edicao" id="edicao" required>
+
+  <label>Categoria</label>
+  <select class="form__input" name="categoria" required>
+    <option value="0" selected>selecione...</option>
+    <option value="romance">Romance</option>
+    <option value="literatura">Literatura</option>
+    <option value="ficção">Ficção</option>
+    <option value="escolar">Escolar</option>
+    <option value="outros">Outros</option>
+  </select>
+
+  <label>Local</label>
+  <input class="form__input" type='text' name="local" id="local" required>
+
+  <label>ISBN</label>
+  <input class="form__input" type='text' name="isbn" id="isbn" required>
+
+  <input class="form__input submit sub" type="submit" value="Cadastrar livro">
+</form>
+
+</section>

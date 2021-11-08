@@ -1,0 +1,42 @@
+<header class="header">
+<h1>Biblioteca</h1>
+<ul class="header__lista">
+  <li><a class="header__link" href="/select">Livros cadastrados</a></li>
+  <li><a class="header__link" href="/inserir">Cadastrar livros</a></li>
+  <li><a class="header__link" href="/">Inicio</a></li>
+</ul>
+</header>
+
+<section class="card">
+  <h1 class="card__title">Ficha de livros</h1>
+
+  <article class="card__content">
+    {{#data}}
+    <div id="card__livro" class="card__livro">
+    <h2 class="card__subtitle">{{nome}}</h2>
+
+    <div class="card__plus">
+    <h4> {{autor}}</h4>
+      <span>
+        <a class="card__link" href="/update/{{isbn}}">
+          <i class="fas fa-pen-square"></i>
+        </a>
+        <a class="card__link delete" href="/delete/{{isbn}}">
+          <i class="fas fa-trash-alt"></i>
+        </a>
+      </span>
+    </div>
+
+    <ul class="lista">
+      <li><p>Editora: {{editora}}</p></li>
+      <li><p>Edição: {{edicao}}</p></li>
+      <li><p>Categoria: {{categoria}}</p></li>
+      <li><p>Local: {{local}}</p></li>
+      <li><p>ISBN: {{isbn}}</p></li>
+    </ul>
+
+    </div>
+    {{/data}}
+  </article>
+
+</section>
