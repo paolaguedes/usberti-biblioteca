@@ -8,6 +8,10 @@ O objetivo do projeto é informatizar processos, como: busca por livros existent
 
 🎨 Layouts do projeto ♥
 
+<img src="https://user-images.githubusercontent.com/53832972/140693455-93456640-137f-4b27-8b2b-542ab04f5258.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/53832972/140693580-07849a70-8275-4acc-874c-b37d7e311ca6.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/53832972/140693773-3fb82e7c-b210-4c32-b396-1152a66ea9bd.PNG" width="500"/>
+
 
 ## Funcionalidades
 
